@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+
+* {
+  font-size: 16px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.color-pallete {
+  color: #F6F7A9;
+  color: #5EC5D4;
+  color: #A782EC;
+  color: #6E07F3;
+  color: #710096;
+  color: #06114F
+}
+
+body {
+  margin: 0;
+}

@@ -1,0 +1,44 @@
+.container {
+  background-color: white;
+  min-height: 7rem;
+  border-bottom: 1px solid #A782EC;
+}
+
+.navbar-wrapper {
+  min-height: 7rem;
+  max-width: 86rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+
+.navbar-wrapper img {
+  cursor: pointer;
+  margin-top: 1.5rem;
+  margin-left: 2rem;
+  height: 4rem;
+}
+
+.buttons-pair {
+  margin-left: auto;
+  padding-right: 2rem;
+}
+
+button {
+  margin-left:1.6rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #6E07F3;
+}
+
+.cancel {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+

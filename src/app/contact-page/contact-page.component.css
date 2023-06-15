@@ -1,0 +1,80 @@
+.container {
+  min-height: 100vh;
+}
+
+.message-for-user {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  max-width: 38rem;
+  text-align: center;
+}
+
+.message-for-user p {
+  font-size: 2.2rem;
+  line-height: 3rem;
+}
+
+.form-wrapper {
+  margin-top: 0rem;
+  max-width: 38rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.subject-and-email {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+mat-form-field {
+  width: 18rem;
+  padding: 0.5rem;
+}
+
+.message mat-form-field {
+  width: 37rem;
+  padding: 0.5rem;
+}
+
+.message textarea {
+  min-height: 20rem;
+  max-height: 60rem;
+  padding: 0.5rem;
+}
+
+.submit-button {
+  display: flex;
+}
+
+app-custom-button {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10rem;
+}
+
+@media (max-width: 38rem) {
+  .message-for-user p {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .subject mat-form-field {
+    width: 92vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+  }
+  .email mat-form-field {
+    width: 92vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+  }
+  .message mat-form-field {
+    width: 92vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+  }
+}

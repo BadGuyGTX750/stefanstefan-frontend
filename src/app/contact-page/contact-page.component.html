@@ -1,0 +1,42 @@
+<div class="container">
+  <app-navbar-contact (onRefreshNotification)="refreshForm()"></app-navbar-contact>
+
+  <div class="message-for-user">
+    <p>Thank you for taking the time to connect. How may I assist you today?</p>
+  </div>
+
+  <div class="form-wrapper">
+
+    <div class="subject-and-email">
+      
+      <div class="subject">
+        <mat-form-field>
+          <mat-label>Subject</mat-label>
+          <input matInput [formControl]="subjectFormControl">
+          <mat-error *ngIf="subjectFormControl.invalid">Required field</mat-error>
+        </mat-form-field>
+      </div>
+
+      <div class="email">
+        <mat-form-field>
+          <mat-label>Email</mat-label>
+          <input matInput [formControl]="emailFormControl">
+          <mat-error *ngIf="emailFormControl.invalid">{{ getEmailErrorMessage() }}</mat-error>
+        </mat-form-field>
+      </div>
+    </div>
+    
+    <div class="message">
+      <mat-form-field>
+        <mat-label>Message</mat-label>
+        <textarea matInput [formControl]="messageFormControl"></textarea>
+        <mat-error *ngIf="messageFormControl.invalid">Required field</mat-error>
+      </mat-form-field>
+    </div>
+
+    <div class="submit-button">
+      <app-custom-button paddingSide="80px" (click)="onSubmit()" text="Submit"></app-custom-button>
+    </div>
+  </div>
+  
+</div>

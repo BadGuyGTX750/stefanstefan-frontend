@@ -1,0 +1,42 @@
+.container {
+  background-color: white;
+  min-height: 7rem;
+}
+
+.navbar-wrapper {
+  min-height: 7rem;
+  max-width: 86rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+
+.navbar-wrapper img {
+  cursor: pointer;
+  margin-top: 1.5rem;
+  margin-left: 2rem;
+  height: 4rem;
+}
+
+.navbar-wrapper .myprojects {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  font-weight: 600;
+  font-size: 16px;
+  transition: 0.3s ease-out;
+}
+
+.navbar-wrapper a:hover {
+  cursor: pointer;
+  color: #6E07F3;
+  transition: 0.2s ease-in;
+}
+
+.navbar-wrapper app-custom-button {
+  float: right;
+  margin-top: 2.2rem;
+  margin-right: 2rem;
+}
