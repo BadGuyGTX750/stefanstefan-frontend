@@ -6,11 +6,11 @@ import { ContactPageComponent } from './contact-page/contact-page.component';
 const routes: Routes = [
   {
     path: '',
-    component: MainPageComponent,
+    component: MainPageComponent
   },
   {
     path: 'contact',
-    component: ContactPageComponent,
+    component: ContactPageComponent
   },
 ];
 
