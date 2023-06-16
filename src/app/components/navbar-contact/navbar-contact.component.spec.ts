@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { NavbarContactComponent } from './navbar-contact.component';
+import { CustomButtonComponent } from '../custom-button/custom-button.component';
 
 describe('NavbarContactComponent', () => {
   let component: NavbarContactComponent;
@@ -8,7 +9,7 @@ describe('NavbarContactComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NavbarContactComponent ]
+      declarations: [ NavbarContactComponent, CustomButtonComponent ]
     })
     .compileComponents();
 
