@@ -58,23 +58,23 @@ app-custom-button {
 @media (max-width: 38rem) {
   .message-for-user p {
     font-size: 1.8rem;
-    line-height: 2.2rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    line-height: 2.6rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
   .subject mat-form-field {
-    width: 92vw;
-    padding-left: 4vw;
-    padding-right: 4vw;
+    width: 88vw;
+    padding-left: 6vw;
+    padding-right: 6vw;
   }
   .email mat-form-field {
-    width: 92vw;
-    padding-left: 4vw;
-    padding-right: 4vw;
+    width: 88vw;
+    padding-left: 6vw;
+    padding-right: 6vw;
   }
   .message mat-form-field {
-    width: 92vw;
-    padding-left: 4vw;
-    padding-right: 4vw;
+    width: 88vw;
+    padding-left: 6vw;
+    padding-right: 6vw;
   }
 }

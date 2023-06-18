@@ -1,12 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './components/navbar/navbar.component';
-import { NavbarContactComponent } from './components/navbar-contact/navbar-contact.component';
-import { MainPageComponent } from './main-page/main-page.component';
-import { ContactPageComponent } from './contact-page/contact-page.component';
-import { CustomButtonComponent } from './components/custom-button/custom-button.component';
-import { FooterComponent } from './components/footer/footer.component';
 
 describe('AppComponent', () => {
   beforeEach(async () => {
