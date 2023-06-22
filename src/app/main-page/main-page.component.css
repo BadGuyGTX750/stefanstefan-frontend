@@ -38,20 +38,20 @@ app-footer {
 }
 
 .avatar {
-  width: 14rem;
+  max-width: 14rem;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 4rem;
 }
 
 .computer {
-  width: 22rem;
+  max-width: 22rem;
   margin-left: auto;
   margin-right: auto;
 }
 
 .introduction {
-  min-height: 30rem;
+  min-height: 34rem;
   background-color: #6E07F3;
 }
 
@@ -151,7 +151,6 @@ app-footer {
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   width: 28vw;
-  min-width: 14rem;
   max-width: 25rem;
   min-height: 30rem;
   border: 1px solid #A782EC;
@@ -165,7 +164,6 @@ app-footer {
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   width: 28vw;
-  min-width: 14rem;
   max-width: 25rem;
   min-height: 30rem;
   border: 1px solid #A782EC;
@@ -179,7 +177,6 @@ app-footer {
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   width: 28vw;
-  min-width: 14rem;
   max-width: 25rem;
   min-height: 30rem;
   border: 1px solid #A782EC;
@@ -200,6 +197,12 @@ app-footer {
   .introduction-2 {
     font-size: 1.1rem;
   }
+  .avatar {
+    max-width: 50%;
+  }
+  .computer {
+    max-width: 50%;
+  }
 }
 
 @media (max-width: 46rem) {
@@ -217,5 +220,11 @@ app-footer {
   .skill-card-3 {
     max-width: none;
     width: 88vw;
+  }
+}
+
+@media (max-width: 22rem) {
+  .skills {
+    margin-top: -0.5rem;
   }
 }

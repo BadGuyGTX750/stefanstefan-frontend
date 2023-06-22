@@ -17,6 +17,7 @@
   cursor: pointer;
   margin-top: 1.5rem;
   margin-left: 2rem;
+  width: 4rem;
   height: 4rem;
 }
 
@@ -39,4 +40,23 @@
   float: right;
   margin-top: 2.2rem;
   margin-right: 2rem;
+}
+
+@media (max-width: 24rem) {
+  .navbar-wrapper {
+    flex-direction: column;
+  }
+  .navbar-wrapper img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .navbar-wrapper .myprojects {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .navbar-wrapper app-custom-button {
+    margin-top: 0rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
