@@ -1,8 +1,22 @@
+<div class="loading-spinner-container" *ngIf="isLoading" >
+  <div class="loader">
+    <mat-spinner></mat-spinner>
+  </div>
+</div>
+
 <div class="container">
   <app-navbar-contact (onRefreshNotification)="refreshForm()"></app-navbar-contact>
 
   <div class="message-for-user">
     <p>Thank you for taking the time to connect. How may I assist you today?</p>
+  </div>
+
+  <div class="ok-message" *ngIf="showOk">
+    <p>Email sent! You should receive a confirmation email soon</p>
+  </div>
+
+  <div class="error-message" *ngIf="showError">
+    <p>Something went wrong...</p>
   </div>
 
   <div class="form-wrapper">
